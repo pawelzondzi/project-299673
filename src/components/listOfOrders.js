@@ -4,7 +4,7 @@ import { list } from '../data/testorders';
 
 
 const Order = ({id, title, status}) => {
-    const icon = status ? '👍' : '⛔';
+    const icon = status ? '👌' : '🙏';
     return <li>{icon}<Link to={`/order/${id}`}>{title}</Link></li>
 }
 
